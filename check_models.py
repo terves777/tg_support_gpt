@@ -10,7 +10,6 @@ client = AsyncOpenAI(
 async def check():
     try:
         models = await client.models.list()
-        # Ищем все модели, у которых в названии есть "free"
         free = [m.id for m in models.data if ":free" in m.id.lower() and "guard" not in m.id.lower()]
         
         print(f"\nВсего моделей в каталоге: {len(models.data)}")

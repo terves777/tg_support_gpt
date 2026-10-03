@@ -6,7 +6,6 @@ client = AsyncOpenAI(
     api_key=config.OPENROUTER_API_KEY,
 )
 
-# Модели, которые реально найдены в твоем аккаунте
 FREE_MODELS = [
     "nvidia/nemotron-3.5-lightning:free",
     "qwen/qwen3.8-27b:free",
