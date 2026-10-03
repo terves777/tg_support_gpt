@@ -27,4 +27,4 @@
 
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone [https://github.com/terves777/tg_support_gpt.git](https://github.com/terves777/tg_support_gpt.git)
+  git clone https://github.com/terves777/tg_support_gpt.git
